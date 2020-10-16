@@ -1,0 +1,86 @@
+html,body {
+    margin: 0;
+    padding: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    /*overflow: scroll;*/
+
+}
+
+/* Card decks */
+
+li{
+    max-width: 16vw;
+    max-height: 16vw;
+}
+.scrollable {
+    /*height: 600px; */
+    overflow: scroll;
+}
+.img {
+    height: 100%;
+}
+
+.sticky-activities-container {
+    top: 130px;
+    /*width: 200px;*/
+}
+
+.videorow{
+    max-width: 50vw;
+}
+.view img {
+    height: 10vh
+}
+.list-group
+{
+   padding-bottom: 100px;
+   /*border-left: 2px solid black;*/
+   list-style: none;
+
+}
+.row{
+    width: 80vw;
+    margin: 30px;
+
+
+}
+.activity-schedule {
+    border: 5px black solid;
+    height: auto;
+
+}
+
+.selected-card {
+    border: 5px blue dotted;
+}
+
+.sortable-card {
+    border: double;
+    border-color: blue;
+    background-color: white;
+    margin:15px;
+}
+
+#savable
+{
+    margin-right: auto;
+}
+
+
+/* Video streaming */
+
+.video {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: rgba(156, 172, 172, 0.2) 0px 2px 2px, rgba(156, 172, 172, 0.2) 0px 4px 4px, rgba(156, 172, 172, 0.2) 0px 8px 8px, rgba(156, 172, 172, 0.2) 0px 16px 16px, rgba(156, 172, 172, 0.2) 0px 32px 32px, rgba(156, 172, 172, 0.2) 0px 64px 64px;
+}
+
+.sticky-video-container {
+    top: 75px;
+    width: 300px;
+}
+#sticky-activities-container
+{
+    float:left;
+}

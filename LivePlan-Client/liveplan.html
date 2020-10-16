@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Live Plan</title>
+    <meta name="description" content="Live Activity Scheduling">
+    <meta name="author" content="University of Malta">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet">
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/animate.css" />
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/liveplan.css" />
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+    <div class="container">
+        <a class="navbar-brand" href="#">Live Plan! <small>Activity Scheduler</small></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="nav nav-pills">
+                <div class="nav-item">
+                    <a class="nav-link active" id="call-peer" href="#"></a>
+                </div>
+                <div> | </div>
+                <div class="nav-item dropdown">
+                    <select id="imagetypes" class="custom-select">
+                        <option value="1">View Mode: One</option>
+                        <option value="2">View Mode: Two</option>
+                        <option value="3">View Mode: Three</option>
+                    </select>
+                </div>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container no-gutters">
+
+    <div class="row activity-schedule">
+        <div class="col">
+        <h2>Activity Schedule</h2>
+        <div>
+            <ul id="planned" class="list-group list-group-horizontal scrollable connectedSortable">
+            </ul>
+        </div>
+        </div>
+
+    </div>
+
+    <div class="row videorow">
+            <div class="card video text-white bg-success col">
+                <h5 class="card-header">
+                    Live Video
+                </h5>
+                <div class="card-body">
+                    <p class="card-text">
+                        <video id="videoStream" class="video" autoplay></video>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="card video text-white bg-info col  ">
+                <div class="card-body">
+                    <p class="card-text">
+                    <h5> Yourself</h5>
+                    <video id="video" class="video" autoplay muted></video>
+                    </p>
+                </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="btn-group teacheronly row" role="group" aria-label="Schedule Actions">
+        <button class="btn btn-primary" id="saveSchedule">Save Schedule</button>
+        <button class="btn btn-default" id="resetSchedule">Reset Schedule</button>
+    </div>
+
+    <!--         The Modal -->
+    <div id="incomingCall" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <h2 id="callerMessage"></h2>
+                <button class="answer btn btn-primary">Answer Call</button>
+                <button class="reject btn btn-secondary">Reject Call</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row teacheronly">
+        <h2>Available activities</h2>
+        <div class="col">
+            <ul id="available" class="list-group list-group-horizontal connectedSortable scrollable">
+            </ul>
+            <button class="btn btn-warning" id="disable_enable_readybutton">Enable Ready Button</button>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+
+<!-- Page Content -->
+</body>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" type="text/javascript"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js"></script>
+<!-- Pubnub for Realtime UI updates -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/1.2.0/peerjs.js" integrity="sha256-HV6SA05JEgsNijBAH9VKZIxtebzui2jXXCSGKpMc7nA=" crossorigin="anonymous"></script>
+<!-- PeerJS for P2P video -->
+<script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.27.4.js"></script>
+
+<!-- Main scripts -->
+<script type='text/javascript' src='liveplan.js'></script>
+
+
+
+</html>

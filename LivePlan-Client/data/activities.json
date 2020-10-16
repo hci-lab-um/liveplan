@@ -1,0 +1,164 @@
+{
+  "Tasks": [
+    {
+      "TaskId": "t1",
+      "NameofThing": "Art",
+      "Pictures": [
+        "assets/images/type1/Art.jpg",
+        "assets/images/type2/Art.jpg",
+        "assets/images/type3/Art.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    },
+    {
+      "TaskId": "t2",
+      "NameofThing": "English",
+      "Pictures": [
+        "assets/images/type1/English.jpg",
+        "assets/images/type2/English.jpg",
+        "assets/images/type3/English.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    },
+    {
+      "TaskId": "t3",
+      "NameofThing": "Maltese",
+      "Pictures": [
+        "assets/images/type1/Maltese.jpg",
+        "assets/images/type2/Maltese.jpg",
+        "assets/images/type3/Maltese.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    },
+    {
+      "TaskId": "t4",
+      "NameofThing": "Drama",
+      "Pictures": [
+        "assets/images/type1/Drama.jpg",
+        "assets/images/type2/Drama.jpg",
+        "assets/images/type3/Drama.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    },
+    {
+      "TaskId": "t5",
+      "NameofThing": "Home Time",
+      "Pictures": [
+        "assets/images/type1/Home Time.jpg",
+        "assets/images/type2/Home Time.jpg",
+        "assets/images/type3/Home Time.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    },
+    {
+      "TaskId": "t6",
+      "NameofThing": "ICT",
+      "Pictures": [
+        "assets/images/type1/ICT.jpg",
+        "assets/images/type2/ICT.jpg",
+        "assets/images/type3/ICT.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    },
+    {
+      "TaskId": "t7",
+      "NameofThing": "Maths",
+      "Pictures": [
+        "assets/images/type1/Maths.jpg",
+        "assets/images/type2/Maths.jpg",
+        "assets/images/type3/Maths.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    },
+    {
+      "TaskId": "t8",
+      "NameofThing": "Music",
+      "Pictures": [
+        "assets/images/type1/Music.jpg",
+        "assets/images/type2/Music.jpg",
+        "assets/images/type3/Music.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    },
+    {
+      "TaskId": "t9",
+      "NameofThing": "Reading",
+      "Pictures": [
+        "assets/images/type1/Reading.jpg",
+        "assets/images/type2/Reading.jpg",
+        "assets/images/type3/Reading.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    },
+    {
+      "TaskId": "t10",
+      "NameofThing": "Science",
+      "Pictures": [
+        "assets/images/type1/Science.jpg",
+        "assets/images/type2/Science.jpg",
+        "assets/images/type3/Science.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    },
+    {
+      "TaskId": "t11",
+      "NameofThing": "Spelling",
+      "Pictures": [
+        "assets/images/type1/Spelling.jpg",
+        "assets/images/type2/Spelling.jpg",
+        "assets/images/type3/Spelling.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    },
+    {
+      "TaskId": "t12",
+      "NameofThing": "Religion",
+      "Pictures": [
+        "assets/images/type1/Religion.jpg",
+        "assets/images/type2/Religion.jpg",
+        "assets/images/type3/Religion.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    },
+    {
+      "TaskId": "t13",
+      "NameofThing": "Assembly",
+      "Pictures": [
+        "assets/images/type1/Assembly.jpg",
+        "assets/images/type2/Assembly.jpg",
+        "assets/images/type3/Assembly.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    },
+    {
+      "TaskId": "t14",
+      "NameofThing": "P.E",
+      "Pictures": [
+        "assets/images/type1/PE.jpg",
+        "assets/images/type2/PE.jpg",
+        "assets/images/type3/PE.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    },
+    {
+      "TaskId": "t15",
+      "NameofThing": "Fun Game",
+      "Pictures": [
+        "assets/images/type1/Fun Game.jpg",
+        "assets/images/type2/Fun Game.jpg",
+        "assets/images/type3/Fun Game.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    },
+    {
+      "TaskId": "t16",
+      "NameofThing": "Online Video",
+      "Pictures": [
+        "assets/images/type1/Online Video.jpg",
+        "assets/images/type2/Online Video.jpg",
+        "assets/images/type3/Online Video.jpg",
+        "assets/images/type1/Ready.jpg"
+      ]
+    }
+  ]
+}
